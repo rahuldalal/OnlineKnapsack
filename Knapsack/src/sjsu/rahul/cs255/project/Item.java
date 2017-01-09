@@ -3,6 +3,8 @@ package sjsu.rahul.cs255.project;
 import java.util.Comparator;
 import java.util.Random;
 
+
+// An individual item or element (with weight and value) filling the knapsack 
 public class Item<T extends Comparable<T>> {
 	private T weight;
 	private T value;
